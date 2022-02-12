@@ -133,10 +133,6 @@ Previous Cards: 7,
 
 What would you like to bet on?
 >5
-
-What would you like to bet on?
->5
-
 Enter your bet amount:
 >500
 
