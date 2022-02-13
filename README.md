@@ -8,7 +8,53 @@ Inspiration from [Gamdom.com/hilo](https://gamdom.com/hilo).
 - There is color while playing in the console to make things easier to read.
 - If the unicode characters/colors don't show correctly in the console, try changing how the file is being encoded in your IDE/editor.
 
-### Sample Game
+### Nine Different Option to Bet On:
+- Each option has its own win multiplier.
+- The Hi & Lo win multipliers are calculated each round depending on what the previous card flipped was. 
+- The rest of the win multipliers are fixed.
+```
+------------------------------------
+Option            Range   Multiplier
+------------------------------------
+1 - Bet Hi        (4-A)       [1.2x]
+2 - Bet Lo        (2)          [12x]
+3 - Bet Red                     [2x]
+4 - Bet Black                   [2x]
+5 - Bet 2-10                  [1.5x]
+6 - Bet J,Q,K,A                 [3x]
+7 - Bet K,A                     [6x]
+8 - Bet A                      [12x]
+9 - Bet Joker                  [24x]
+
+10 - Additional Options
+------------------------------------
+```
+
+### View Previous Card Details:
+```
+---------------------------
+Previous 50 rounds
+---------------------------
+Red            24     [48%]
+Black          25     [50%]
+---------------------------
+2               3      [6%]
+3               3      [6%]
+4               2      [4%]
+5               5     [10%]
+6               3      [6%]
+7               5     [10%]
+8               2      [4%]
+9               4      [8%]
+10              3      [6%]
+J               5     [10%]
+Q               5     [10%]
+K               3      [6%]
+A               6     [12%]
+Joker           1      [2%]
+---------------------------
+```
+### Sample Game:
 ```
 Please enter your name: 
 >Liam

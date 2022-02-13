@@ -1,159 +1,705 @@
 ====== Hi-Lo Game Logs =======
 Player Name:                  
-Starting Balance:($)     50000
+Starting Balance:($)    500000
 
-Time: Sun Feb 13 19:16:25 2022
+Time: Sun Feb 13 22:09:05 2022
 ==============================
 --------------------------
 Bet Number #1
-Sun Feb 13 19:17:10 2022
+Sun Feb 13 22:09:18 2022
 
-Card Value: 3
+Card Value: J
 Card Color: black
 
-Bet Amount: $1000
-Bet On: A
-Result: -$1000
-Balance: $49000
+Bet Amount: $100
+Bet On: Red
+Result: -$100
+Balance: $499900
 --------------------------
 
 
 --------------------------
 Bet Number #2
-Sun Feb 13 19:19:41 2022
+Sun Feb 13 22:09:21 2022
 
-Card Value: 6
+Card Value: A
 Card Color: red
 
-Bet Amount: $1000
-Bet On: Hi
-Result: +$1200 (1000 * 1.2)
-Balance: $49200
+Bet Amount: $10000
+Bet On: Black
+Result: -$10000
+Balance: $489900
 --------------------------
 
 
 --------------------------
 Bet Number #3
-Sun Feb 13 19:22:44 2022
+Sun Feb 13 22:09:23 2022
 
-Card Value: Joker
-Card Color: green
+Card Value: J
+Card Color: black
 
-Bet Amount: $2000
-Bet On: Joker
-Result: +$48000 (2000 * 24)
-Balance: $95200
+Bet Amount: $1000
+Bet On: Red
+Result: -$1000
+Balance: $488900
 --------------------------
 
 
 --------------------------
 Bet Number #4
-Sun Feb 13 19:26:12 2022
+Sun Feb 13 22:09:27 2022
 
-Card Value: 8
-Card Color: red
+Card Value: 9
+Card Color: black
 
-Bet Amount: $5000
-Bet On: Red
-Result: +$10000 (5000 * 2)
-Balance: $100200
+Bet Amount: $3000
+Bet On: Joker
+Result: -$3000
+Balance: $485900
 --------------------------
 
 
 --------------------------
 Bet Number #5
-Sun Feb 13 19:26:22 2022
+Sun Feb 13 22:09:36 2022
 
-Card Value: 8
-Card Color: red
-
-Bet Amount: $5000
-Bet On: Lo
-Result: -$5000
-Balance: $95200
---------------------------
-
-
---------------------------
-Bet Number #6
-Sun Feb 13 19:26:35 2022
-
-Card Value: A
-Card Color: red
-
-Bet Amount: $5200
-Bet On: Black
-Result: -$5200
-Balance: $90000
---------------------------
-
-
---------------------------
-Bet Number #7
-Sun Feb 13 19:31:18 2022
-
-Card Value: 2
-Card Color: black
-
-Bet Amount: $5000
-Bet On: Red
-Result: -$5000
-Balance: $85000
---------------------------
-
-
---------------------------
-Bet Number #8
-Sun Feb 13 19:31:22 2022
-
-Card Value: 6
-Card Color: red
-
-Bet Amount: $5000
-Bet On: Red
-Result: +$10000 (5000 * 2)
-Balance: $90000
---------------------------
-
-
---------------------------
-Bet Number #9
-Sun Feb 13 19:31:24 2022
-
-Card Value: 2
-Card Color: red
-
-Bet Amount: $5000
-Bet On: Black
-Result: -$5000
-Balance: $85000
---------------------------
-
-
---------------------------
-Bet Number #10
-Sun Feb 13 19:31:27 2022
-
-Card Value: 10
-Card Color: red
-
-Bet Amount: $4000
-Bet On: Red
-Result: +$8000 (4000 * 2)
-Balance: $89000
---------------------------
-
-
---------------------------
-Bet Number #11
-Sun Feb 13 19:31:33 2022
-
-Card Value: K
+Card Value: 5
 Card Color: black
 
 Bet Amount: $10000
 Bet On: Red
 Result: -$10000
-Balance: $79000
+Balance: $475900
+--------------------------
+
+
+--------------------------
+Bet Number #6
+Sun Feb 13 22:09:42 2022
+
+Card Value: Q
+Card Color: red
+
+Bet Amount: $20000
+Bet On: Red
+Result: +$40000 (20000 * 2)
+Balance: $495900
+--------------------------
+
+
+--------------------------
+Bet Number #7
+Sun Feb 13 22:09:54 2022
+
+Card Value: 6
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $485900
+--------------------------
+
+
+--------------------------
+Bet Number #8
+Sun Feb 13 22:09:57 2022
+
+Card Value: 10
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $475900
+--------------------------
+
+
+--------------------------
+Bet Number #9
+Sun Feb 13 22:09:59 2022
+
+Card Value: 7
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $465900
+--------------------------
+
+
+--------------------------
+Bet Number #10
+Sun Feb 13 22:10:03 2022
+
+Card Value: 5
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $455900
+--------------------------
+
+
+--------------------------
+Bet Number #11
+Sun Feb 13 22:10:06 2022
+
+Card Value: 2
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $445900
+--------------------------
+
+
+--------------------------
+Bet Number #12
+Sun Feb 13 22:10:09 2022
+
+Card Value: A
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $435900
+--------------------------
+
+
+--------------------------
+Bet Number #13
+Sun Feb 13 22:10:13 2022
+
+Card Value: J
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $425900
+--------------------------
+
+
+--------------------------
+Bet Number #14
+Sun Feb 13 22:10:20 2022
+
+Card Value: 7
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $415900
+--------------------------
+
+
+--------------------------
+Bet Number #15
+Sun Feb 13 22:10:23 2022
+
+Card Value: 5
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $405900
+--------------------------
+
+
+--------------------------
+Bet Number #16
+Sun Feb 13 22:10:30 2022
+
+Card Value: K
+Card Color: black
+
+Bet Amount: $5900
+Bet On: J, Q, K, A
+Result: +$17700 (5900 * 3)
+Balance: $417700
+--------------------------
+
+
+--------------------------
+Bet Number #17
+Sun Feb 13 22:10:34 2022
+
+Card Value: 6
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $407700
+--------------------------
+
+
+--------------------------
+Bet Number #18
+Sun Feb 13 22:10:39 2022
+
+Card Value: 2
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $397700
+--------------------------
+
+
+--------------------------
+Bet Number #19
+Sun Feb 13 22:10:41 2022
+
+Card Value: K
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $387700
+--------------------------
+
+
+--------------------------
+Bet Number #20
+Sun Feb 13 22:10:44 2022
+
+Card Value: J
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $377700
+--------------------------
+
+
+--------------------------
+Bet Number #21
+Sun Feb 13 22:10:46 2022
+
+Card Value: 8
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $367700
+--------------------------
+
+
+--------------------------
+Bet Number #22
+Sun Feb 13 22:10:49 2022
+
+Card Value: 6
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $357700
+--------------------------
+
+
+--------------------------
+Bet Number #23
+Sun Feb 13 22:10:52 2022
+
+Card Value: 3
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $347700
+--------------------------
+
+
+--------------------------
+Bet Number #24
+Sun Feb 13 22:10:54 2022
+
+Card Value: 8
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $337700
+--------------------------
+
+
+--------------------------
+Bet Number #25
+Sun Feb 13 22:10:56 2022
+
+Card Value: A
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $327700
+--------------------------
+
+
+--------------------------
+Bet Number #26
+Sun Feb 13 22:10:59 2022
+
+Card Value: Q
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $317700
+--------------------------
+
+
+--------------------------
+Bet Number #27
+Sun Feb 13 22:11:01 2022
+
+Card Value: 9
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $307700
+--------------------------
+
+
+--------------------------
+Bet Number #28
+Sun Feb 13 22:11:03 2022
+
+Card Value: 7
+Card Color: black
+
+Bet Amount: $100000
+Bet On: Joker
+Result: -$100000
+Balance: $207700
+--------------------------
+
+
+--------------------------
+Bet Number #29
+Sun Feb 13 22:11:09 2022
+
+Card Value: 5
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $197700
+--------------------------
+
+
+--------------------------
+Bet Number #30
+Sun Feb 13 22:11:12 2022
+
+Card Value: Joker
+Card Color: green
+
+Bet Amount: $10000
+Bet On: Joker
+Result: +$240000 (10000 * 24)
+Balance: $427700
+--------------------------
+
+
+--------------------------
+Bet Number #31
+Sun Feb 13 22:11:39 2022
+
+Card Value: Q
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $417700
+--------------------------
+
+
+--------------------------
+Bet Number #32
+Sun Feb 13 22:11:42 2022
+
+Card Value: 10
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $407700
+--------------------------
+
+
+--------------------------
+Bet Number #33
+Sun Feb 13 22:11:44 2022
+
+Card Value: A
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $397700
+--------------------------
+
+
+--------------------------
+Bet Number #34
+Sun Feb 13 22:11:46 2022
+
+Card Value: Q
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $387700
+--------------------------
+
+
+--------------------------
+Bet Number #35
+Sun Feb 13 22:12:07 2022
+
+Card Value: 10
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $377700
+--------------------------
+
+
+--------------------------
+Bet Number #36
+Sun Feb 13 22:12:11 2022
+
+Card Value: 5
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $367700
+--------------------------
+
+
+--------------------------
+Bet Number #37
+Sun Feb 13 22:12:14 2022
+
+Card Value: K
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $357700
+--------------------------
+
+
+--------------------------
+Bet Number #38
+Sun Feb 13 22:12:16 2022
+
+Card Value: A
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $347700
+--------------------------
+
+
+--------------------------
+Bet Number #39
+Sun Feb 13 22:12:19 2022
+
+Card Value: Q
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $337700
+--------------------------
+
+
+--------------------------
+Bet Number #40
+Sun Feb 13 22:12:21 2022
+
+Card Value: 9
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $327700
+--------------------------
+
+
+--------------------------
+Bet Number #41
+Sun Feb 13 22:12:24 2022
+
+Card Value: 7
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $317700
+--------------------------
+
+
+--------------------------
+Bet Number #42
+Sun Feb 13 22:12:27 2022
+
+Card Value: 4
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $307700
+--------------------------
+
+
+--------------------------
+Bet Number #43
+Sun Feb 13 22:12:33 2022
+
+Card Value: A
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $297700
+--------------------------
+
+
+--------------------------
+Bet Number #44
+Sun Feb 13 22:12:35 2022
+
+Card Value: J
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $287700
+--------------------------
+
+
+--------------------------
+Bet Number #45
+Sun Feb 13 22:12:37 2022
+
+Card Value: 9
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $277700
+--------------------------
+
+
+--------------------------
+Bet Number #46
+Sun Feb 13 22:12:40 2022
+
+Card Value: 7
+Card Color: black
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $267700
+--------------------------
+
+
+--------------------------
+Bet Number #47
+Sun Feb 13 22:12:42 2022
+
+Card Value: 4
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $257700
+--------------------------
+
+
+--------------------------
+Bet Number #48
+Sun Feb 13 22:12:44 2022
+
+Card Value: 2
+Card Color: red
+
+Bet Amount: $100000
+Bet On: Joker
+Result: -$100000
+Balance: $157700
+--------------------------
+
+
+--------------------------
+Bet Number #49
+Sun Feb 13 22:13:00 2022
+
+Card Value: 3
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $147700
+--------------------------
+
+
+--------------------------
+Bet Number #50
+Sun Feb 13 22:13:04 2022
+
+Card Value: 3
+Card Color: red
+
+Bet Amount: $10000
+Bet On: Joker
+Result: -$10000
+Balance: $137700
 --------------------------
 

@@ -598,7 +598,7 @@ void HiLo::printPreviousCardsTable() {
     std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
     std::cout << std::setfill(' ');
 
-    std::cout << std::setw(1) << std::left << "" << "Previous " << previousCards.size() << " rounds" << std::endl;
+    std::cout << "Previous " << previousCards.size() << " rounds" << std::endl;
 
     std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
     std::cout << std::setfill(' ');
