@@ -47,6 +47,24 @@ private:
     const double aceWinMultiplier{12}; // A
     const double jokerWinMultiplier{24}; // Joker
 
+    int redCards{};
+    int blackCards{};
+    int twoCards{};
+    int threeCards{};
+    int fourCards{};
+    int fiveCards{};
+    int sixCards{};
+    int sevenCards{};
+    int eightCards{};
+    int nineCards{};
+    int tenCards{};
+    int jackCards{};
+    int queenCards{};
+    int kingCards{};
+    int aceCards{};
+    int jokerCards{};
+
+
 public:
     HiLo(std::string name, double balance);
     void startGame();
@@ -64,6 +82,7 @@ private:
     void askDepositBalance();
 
     void calculateHiLoRangeAndMultipliers();
+    std::string calculatePreviousCardPercentages(int cardAmount);
 
     void printResult();
     void printWelcome() const;

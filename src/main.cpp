@@ -22,7 +22,7 @@ int main() {
                 done = true;
         }
         else
-            std::cout << "\nInvalid startingBalance entered!" << std::endl;
+            std::cout << "\nInvalid starting balance entered!" << std::endl;
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     } while (!done);
 

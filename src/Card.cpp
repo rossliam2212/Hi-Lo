@@ -91,6 +91,10 @@ std::string Card::getCardColor() const {
     return color;
 }
 
+int Card::getCardValueIndex() const {
+    return cardValueIndex;
+}
+
 std::ostream &operator<<(std::ostream &os, const Card &card) {
     os << "Card Value: " << card.value << "\nCard Color: " << card.color;
     return os;

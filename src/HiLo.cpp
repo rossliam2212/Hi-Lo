@@ -259,7 +259,61 @@ void HiLo::updateBalance(double amount) {
 }
 
 void HiLo::setNextCard() {
+    std::string cardColor{currentCard.getCardColor()};
+    if (cardColor == "red")
+        redCards++;
+    else if (cardColor == "black")
+        blackCards++;
+
+    int cardValueIndex = currentCard.getCardValueIndex();
+    switch (cardValueIndex) {
+        case 0:
+            twoCards++;
+            break;
+        case 1:
+            threeCards++;
+            break;
+        case 2:
+            fourCards++;
+            break;
+        case 3:
+            fiveCards++;
+            break;
+        case 4:
+            sixCards++;
+            break;
+        case 5:
+            sevenCards++;
+            break;
+        case 6:
+            eightCards++;
+            break;
+        case 7:
+            nineCards++;
+            break;
+        case 8:
+            tenCards++;
+            break;
+        case 9:
+            jackCards++;
+            break;
+        case 10:
+            queenCards++;
+            break;
+        case 11:
+            kingCards++;
+            break;
+        case 12:
+            aceCards++;
+            break;
+        case 13:
+            jokerCards++;
+            break;
+
+    }
+
     calculateHiLoRangeAndMultipliers();
+
     previousCards.push_back(currentCard);
     currentCard.generateRandomCard();
 }
@@ -473,16 +527,16 @@ void HiLo::printBetOptions() {
 
 void HiLo::printExtraOptions() {
     std::cout << green << "\nAdditional Options:" << white << std::endl;
-    std::cout << "1 - View Balance." << std::endl;
-    std::cout << "2 - Deposit Balance." << std::endl;
-    std::cout << "3 - View previous cards in a table." << std::endl;
-    std::cout << "4 - Quit Game." << std::endl;
+    std::cout << green << "1 - " << white "View Balance." << std::endl;
+    std::cout << green << "2 - " << white "Deposit Balance." << std::endl;
+    std::cout << green << "3 - "  << white "View previous cards in a table." << std::endl;
+    std::cout << green << "4 - " << white "Quit Game." << std::endl;
 
     int option{};
     std::string entry;
     bool done{false};
     do {
-        std::cout << "\nWhat would you like to do? \n>";
+        std::cout << "\nWhat would you like to do? " << green << "\n>" << white;
         std::cin >> entry;
         std::istringstream validator{entry};
 
@@ -520,7 +574,7 @@ void HiLo::printExtraOptions() {
 }
 
 void HiLo::printPreviousCards() const {
-    std::cout << "Previous Cards: ";
+    std::cout << "Previous Cards: " << std::endl;
     for (const auto& card : previousCards) {
         if (card.getCardColor() == "red")
             std::cout << red << card.getCardValue()  << white << ", ";
@@ -528,12 +582,90 @@ void HiLo::printPreviousCards() const {
             std::cout << black << card.getCardValue() << white << ", ";
         else if (card.getCardColor() == "green")
             std::cout << green << card.getCardValue() << white << ", ";
+
     }
+    if (previousCards.size() % 10 == 0 && !previousCards.empty()) std::cout << '\n';
     std::cout << "\n";
 }
 
 void HiLo::printPreviousCardsTable() {
-    std::cout << "\nPrevious Cards Table PlaceHolder" << std::endl;
+    const int width{27};
+    const int field1Width{10};
+    const int field2Width{7};
+    const int field3Width{10};
+
+    std::cout << "\n";
+    std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
+    std::cout << std::setfill(' ');
+
+    std::cout << std::setw(1) << std::left << "" << "Previous " << previousCards.size() << " rounds" << std::endl;
+
+    std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
+    std::cout << std::setfill(' ');
+
+    std::cout << std::setw(field1Width) << std::left << "Red" << std::setw(field2Width) << std::right << redCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(redCards) << std::endl;
+    std::cout << std::setw(field1Width) << std::left << "Black" << std::setw(field2Width) << std::right << blackCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(blackCards) << std::endl;
+
+    std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
+    std::cout << std::setfill(' ');
+
+    std::cout << std::setw(field1Width) << std::left << "2" << std::setw(field2Width) << std::right << twoCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(twoCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "3" << std::setw(field2Width) << std::right << threeCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(threeCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "4" << std::setw(field2Width) << std::right << fourCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(fourCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "5" << std::setw(field2Width) << std::right << fiveCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(fiveCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "6" << std::setw(field2Width) << std::right << sixCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(sixCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "7" << std::setw(field2Width) << std::right << sevenCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(sevenCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "8" << std::setw(field2Width) << std::right << eightCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(eightCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "9" << std::setw(field2Width) << std::right << nineCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(nineCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "10" << std::setw(field2Width) << std::right << tenCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(tenCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "J" << std::setw(field2Width) << std::right << jackCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(jackCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "Q" << std::setw(field2Width) << std::right << queenCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(queenCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "K" << std::setw(field2Width) << std::right << kingCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(kingCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "A" << std::setw(field2Width) << std::right << aceCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(aceCards) << std::endl;
+
+    std::cout << std::setw(field1Width) << std::left << "Joker" << std::setw(field2Width) << std::right << jokerCards
+              << std::setw(field3Width) << std::right << calculatePreviousCardPercentages(jokerCards) << std::endl;
+
+
+    std::cout << std::setw(width) << std::setfill('-') << "" << std::endl;
+    std::cout << std::setfill(' ');
+    std::cout << '\n';
+}
+
+std::string HiLo::calculatePreviousCardPercentages(int cardAmount) {
+    auto totalCards = static_cast<double>(previousCards.size());
+    if (totalCards == 0 || cardAmount == 0) return "[0%]";
+
+    double temp{(cardAmount / totalCards) * 100};
+    int percentage = static_cast<int>(temp);
+    return "[" + std::to_string(percentage) + "%]";
 }
 
 void HiLo::printWelcome() const {

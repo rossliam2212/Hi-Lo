@@ -1,152 +1,159 @@
 ====== Hi-Lo Game Logs =======
 Player Name:                  
-Starting Balance:($)      5000
+Starting Balance:($)     50000
 
-Time: Sat Feb 12 22:59:47 2022
+Time: Sun Feb 13 19:16:25 2022
 ==============================
 --------------------------
 Bet Number #1
-Sat Feb 12 22:59:53 2022
+Sun Feb 13 19:17:10 2022
 
-Card Value: 7
+Card Value: 3
 Card Color: black
 
-Bet Amount: $500
-Bet On: Red
-Result: -$500
-Balance: $4500
---------------------------
-
-
---------------------------
-Sat Feb 12 23:00:00 2022
-Deposit Balance: +$500
-New Balance: $5000
+Bet Amount: $1000
+Bet On: A
+Result: -$1000
+Balance: $49000
 --------------------------
 
 
 --------------------------
 Bet Number #2
-Sat Feb 12 23:00:56 2022
+Sun Feb 13 19:19:41 2022
 
-Card Value: 9
-Card Color: black
+Card Value: 6
+Card Color: red
 
-Bet Amount: $500
-Bet On: 2 - 10
-Result: +$750 (500 * 1.5)
-Balance: $5250
+Bet Amount: $1000
+Bet On: Hi
+Result: +$1200 (1000 * 1.2)
+Balance: $49200
 --------------------------
 
 
 --------------------------
 Bet Number #3
-Sat Feb 12 23:01:04 2022
+Sun Feb 13 19:22:44 2022
 
-Card Value: 2
-Card Color: red
+Card Value: Joker
+Card Color: green
 
-Bet Amount: $500
+Bet Amount: $2000
 Bet On: Joker
-Result: -$500
-Balance: $4750
+Result: +$48000 (2000 * 24)
+Balance: $95200
 --------------------------
 
 
 --------------------------
 Bet Number #4
-Sat Feb 12 23:01:16 2022
+Sun Feb 13 19:26:12 2022
 
-Card Value: 10
+Card Value: 8
 Card Color: red
 
-Bet Amount: $500
-Bet On: K, A
-Result: -$500
-Balance: $4250
+Bet Amount: $5000
+Bet On: Red
+Result: +$10000 (5000 * 2)
+Balance: $100200
 --------------------------
 
 
 --------------------------
 Bet Number #5
-Sat Feb 12 23:01:26 2022
+Sun Feb 13 19:26:22 2022
 
-Card Value: A
+Card Value: 8
 Card Color: red
 
-Bet Amount: $500
-Bet On: J, Q, K, A
-Result: +$1500 (500 * 3)
-Balance: $5250
+Bet Amount: $5000
+Bet On: Lo
+Result: -$5000
+Balance: $95200
 --------------------------
 
 
 --------------------------
 Bet Number #6
-Sat Feb 12 23:01:34 2022
+Sun Feb 13 19:26:35 2022
 
-Card Value: 4
+Card Value: A
 Card Color: red
 
-Bet Amount: $500
-Bet On: J, Q, K, A
-Result: -$500
-Balance: $4750
+Bet Amount: $5200
+Bet On: Black
+Result: -$5200
+Balance: $90000
 --------------------------
 
 
 --------------------------
 Bet Number #7
-Sat Feb 12 23:01:38 2022
+Sun Feb 13 19:31:18 2022
 
-Card Value: Q
-Card Color: red
+Card Value: 2
+Card Color: black
 
-Bet Amount: $500
-Bet On: J, Q, K, A
-Result: +$1500 (500 * 3)
-Balance: $5750
+Bet Amount: $5000
+Bet On: Red
+Result: -$5000
+Balance: $85000
 --------------------------
 
 
 --------------------------
 Bet Number #8
-Sat Feb 12 23:01:54 2022
+Sun Feb 13 19:31:22 2022
 
-Card Value: 8
+Card Value: 6
 Card Color: red
 
-Bet Amount: $250
-Bet On: Joker
-Result: -$250
-Balance: $5500
+Bet Amount: $5000
+Bet On: Red
+Result: +$10000 (5000 * 2)
+Balance: $90000
 --------------------------
 
 
 --------------------------
 Bet Number #9
-Sat Feb 12 23:01:57 2022
+Sun Feb 13 19:31:24 2022
 
-Card Value: 8
+Card Value: 2
 Card Color: red
 
-Bet Amount: $250
-Bet On: Joker
-Result: -$250
-Balance: $5250
+Bet Amount: $5000
+Bet On: Black
+Result: -$5000
+Balance: $85000
 --------------------------
 
 
 --------------------------
 Bet Number #10
-Sat Feb 12 23:02:01 2022
+Sun Feb 13 19:31:27 2022
 
-Card Value: 5
+Card Value: 10
+Card Color: red
+
+Bet Amount: $4000
+Bet On: Red
+Result: +$8000 (4000 * 2)
+Balance: $89000
+--------------------------
+
+
+--------------------------
+Bet Number #11
+Sun Feb 13 19:31:33 2022
+
+Card Value: K
 Card Color: black
 
-Bet Amount: $250
-Bet On: Joker
-Result: -$250
-Balance: $5000
+Bet Amount: $10000
+Bet On: Red
+Result: -$10000
+Balance: $79000
 --------------------------
 

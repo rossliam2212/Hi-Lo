@@ -38,6 +38,7 @@ public:
 
     std::string getCardValue() const;
     std::string getCardColor() const;
+    int getCardValueIndex() const;
 
     bool operator<(const Card &rhs) const;
     bool operator>(const Card &rhs) const;
