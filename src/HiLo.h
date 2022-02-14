@@ -66,7 +66,7 @@ private:
 
 
 public:
-    HiLo(std::string name, double balance);
+    HiLo(const std::string& name, double balance);
     void startGame();
     bool addBalance(double amount);
 

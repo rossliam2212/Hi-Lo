@@ -20,13 +20,13 @@ private:
     double startingBalance;
 public:
     HistoryLogger();
-    HistoryLogger(std::string playerName, double balance);
+    HistoryLogger(const std::string& playerName, double balance);
     void fileSetUp();
 
     void logGameResult(const Card& card, int betNumber, double betAmount, double result, double currentBalance, double multiplier, std::string& betOn);
     void logDeposit(double depositAmount, double balance);
 
-    void setPlayerName(std::string name);
+    void setPlayerName(const std::string& name);
     void setBalance(double balance);
 };
 

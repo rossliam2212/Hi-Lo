@@ -4,14 +4,14 @@
 
 #include "HiLo.h"
 
-HiLo::HiLo(std::string name, double balance) :
-    name{std::move(name)},
+HiLo::HiLo(const std::string& name, double balance) :
+    name{name},
     balance{balance},
     currentBet{},
     currentBetOption{},
     totalWin{},
     gameLog{name, balance},
-    currentCard{},
+    currentCard{true},
     previousCards{},
     gameRunning{false},
     newGame{true}
@@ -690,7 +690,7 @@ void HiLo::printInstructions() const {
 
 void HiLo::printGoodBye() {
     std::cout << "\nThanks for playing " << name << "!" << std::endl;
-    std::cout << "Come back soon :)" << std::endl;
+    std::cout << "Come back soon " << green " :)" << white << std::endl;
     gameRunning = false;
     exit(0);
 }

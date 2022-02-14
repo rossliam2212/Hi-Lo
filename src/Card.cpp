@@ -11,21 +11,16 @@ Card::Card() :
     cardValues{"2", "3", "4", "5", "6", "7",
                "8", "9", "10","J", "Q", "K",
                "A", "Joker"},
-   cardColors{"red", "black"}
+    cardColors{"red", "black"},
+    cardValuesHard{"2","2", "3", "3", "4", "4", "5", "5", "6", "6", "7", "7",
+                   "8", "8", "9", "9", "10", "10","J", "J", "Q", "Q", "K", "K",
+                   "A", "A", "Joker"}
 {
     generateRandomCard();
 }
 
-Card::Card(const Card& source) :
-    value{source.value},
-    color{source.color},
-    cardValueIndex{source.cardValueIndex},
-    cardValues{"2", "3", "4", "5", "6", "7",
-               "8", "9", "10","J", "Q", "K",
-               "A", "Joker"},
-    cardColors{"red", "black"}
-{
-
+Card::Card(bool harderMode) : Card() {
+    this->harderMode = harderMode;
 }
 
 void Card::printCard() const {
@@ -65,14 +60,18 @@ void Card::printCardBack() const {
 }
 
 void Card::generateRandomCard() {
-    cardValueIndex = getRandomNumber(0, numberOfValues-1);
-    value = cardValues[cardValueIndex];
+    if (harderMode) {
+        cardValueIndex = getRandomNumber(0, numberOfValuesHard-1);
+        value = cardValuesHard[cardValueIndex];
+    } else {
+        cardValueIndex = getRandomNumber(0, numberOfValues-1);
+        value = cardValues[cardValueIndex];
+    }
 
     if (value == "Joker") {
         color = "green";
         return;
     }
-
     color = cardColors[getRandomNumber(0, numberOfColors-1)];
 }
 

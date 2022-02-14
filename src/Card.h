@@ -29,9 +29,15 @@ private:
     std::string cardValues[numberOfValues];
     std::string cardColors[numberOfColors];
 
+    // Harder Mode*
+    bool harderMode{};
+    static const int numberOfValuesHard{36};
+    std::string cardValuesHard[numberOfValuesHard];
+
 public:
     Card();
-    Card(const Card& source);
+    explicit Card(bool harderMode);
+    Card(const Card& source) = default;
     void generateRandomCard();
     void printCard() const;
     void printCardBack() const;

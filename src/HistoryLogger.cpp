@@ -13,8 +13,8 @@ HistoryLogger::HistoryLogger() :
 {
 }
 
-HistoryLogger::HistoryLogger(std::string playerName, double balance) :
-        playerName{std::move(playerName)},
+HistoryLogger::HistoryLogger(const std::string& playerName, double balance) :
+        playerName{playerName},
         outputFileName{"../GameHistory.txt"},
         startingBalance{balance}
 {
@@ -101,7 +101,7 @@ void HistoryLogger::logDeposit(double depositAmount, double balance) {
     outputFile.close();
 }
 
-void HistoryLogger::setPlayerName(std::string name) {
+void HistoryLogger::setPlayerName(const std::string& name) {
     this->playerName = name;
 }
 
