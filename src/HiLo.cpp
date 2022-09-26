@@ -199,7 +199,7 @@ bool HiLo::validateBetAmount(double bet) const {
     return false;
 }
 
-bool HiLo::validateBetOption(int option) const {
+bool HiLo::validateBetOption(int option) {
     if (option < 1 || option > 9) return false;
     return true;
 }
@@ -672,10 +672,10 @@ void HiLo::printWelcome() const {
     std::cout << green << "\n=== Welcome to Hi-Lo " << name << "! ===" << white << std::endl;
 }
 
-void HiLo::printInstructions() const {
+void HiLo::printInstructions() {
     std::cout << underline << green << "\n-- Game Instructions --"  << white << removeUnderline << std::endl;
     std::cout << green << "-" << white << " When the game starts, you will be shown the back of a card like below.";
-    currentCard.printCardBack();
+    Card::printCardBack();
     std::cout << green << "-" << white << " You will then be asked what you would like to be on from the options displayed." << std::endl;
     std::cout << green << "-" << white << " Once an option is chosen, you will be asked to enter the amount you want to bet." << std::endl;
     std::cout << green << "-" << white << " After your bet has been entered, the card will be flipped and the results will be calculated and displayed." << std::endl;

@@ -74,7 +74,7 @@ private:
     void getBetOption();
     void getPlayerBet();
     bool validateBetAmount(double bet) const;
-    bool validateBetOption(int option) const;
+    static bool validateBetOption(int option) ;
     void checkPlayerBet();
     void updateBalance(double amount);
     void setNextCard();
@@ -86,7 +86,7 @@ private:
 
     void printResult();
     void printWelcome() const;
-    void printInstructions() const;
+    static void printInstructions() ;
     void printBetOptions();
     void printExtraOptions();
     void printPreviousCards() const;

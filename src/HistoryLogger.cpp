@@ -6,12 +6,7 @@
 
 #include <utility>
 
-HistoryLogger::HistoryLogger() :
-        playerName{},
-        startingBalance{},
-        outputFileName{"../GameHistory.txt"}
-{
-}
+HistoryLogger::HistoryLogger() : HistoryLogger("Default", 0.0) { }
 
 HistoryLogger::HistoryLogger(const std::string& playerName, double balance) :
         playerName{playerName},
@@ -46,7 +41,8 @@ void HistoryLogger::fileSetUp() {
     outputFile.close();
 }
 
-void HistoryLogger::logGameResult(const Card& card, int betNumber, double betAmount, double result, double currentBalance, double multiplier, std::string &betOn) {
+void HistoryLogger::logGameResult(const Card& card, int betNumber, double betAmount, double result, double currentBalance,
+                                  double multiplier, const std::string &betOn) {
     std::ofstream outputFile{outputFileName, std::ios::app};
     if (!outputFile) {
         std::cerr << "Error writing details to file!" << std::endl;

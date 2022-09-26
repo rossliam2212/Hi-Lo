@@ -47,7 +47,7 @@ void Card::printCard() const {
     std::cout << std::setw(cardWidth) << std::setfill('=') << "" << std::endl;
 }
 
-void Card::printCardBack() const {
+void Card::printCardBack() {
     const int cardWidth{9};
 
     std::cout << "\n";
@@ -76,10 +76,11 @@ void Card::generateRandomCard() {
 }
 
 int Card::getRandomNumber(int min, int max) {
-    std::default_random_engine defaultRandomEngine(time(0));
-    std::uniform_int_distribution<int> intDistribution(min, max);
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_int_distribution<int> dist(min, max);
 
-    return intDistribution(defaultRandomEngine);
+    return dist(mt);
 }
 
 std::string Card::getCardValue() const {

@@ -40,7 +40,7 @@ public:
     Card(const Card& source) = default;
     void generateRandomCard();
     void printCard() const;
-    void printCardBack() const;
+    static void printCardBack() ;
 
     std::string getCardValue() const;
     std::string getCardColor() const;
@@ -50,7 +50,7 @@ public:
     bool operator>(const Card &rhs) const;
 
 private:
-    int getRandomNumber(int min, int max);
+    static int getRandomNumber(int min, int max);
 };
 
 
